@@ -32,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/aine/Desktop/SFU/SIAT/IAT 339/redoportfolionextjs/src/app/(sub)",
+    "last_opened_file_path": "/Users/aine/Desktop/SFU/SIAT/IAT 339/redoportfolionextjs/src/app/(sub)/about",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,6 +45,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/(sub)/about" />
       <recent name="$PROJECT_DIR$/src/app/(sub)" />
       <recent name="$PROJECT_DIR$/src/app/(sub)/projects/givemeyesterday" />
     </key>
@@ -64,7 +65,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693358174684</updated>
-      <workItem from="1693358176137" duration="3735000" />
+      <workItem from="1693358176137" duration="3758000" />
+      <workItem from="1693364249102" duration="1669000" />
     </task>
     <servers />
   </component>
