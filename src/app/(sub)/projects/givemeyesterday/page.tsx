@@ -18,8 +18,13 @@ export default function ProjectPage() {
                     <p className="font-untitledsans text-customGray ">Interaction design, Art direction</p>
                     <p className="font-untitledsans">Give me Yesterday</p>
                 </div>
-                <Image src="/img/givemeyesterday/Givemeyesterdaythumbnail.png" alt="" width={2500} height={1620}>
-                </Image>
+                <Image
+                    src="/img/givemeyesterday/Givemeyesterdaythumbnail.png"
+                    alt=""
+                    width={2500}
+                    height={1620}
+                />
+
             </div>
 
 
@@ -81,7 +86,7 @@ export default function ProjectPage() {
             <div className="col-start-1 col-span-full mt-14">
                 <video autoPlay loop muted className="w-full" preload="auto" playsInline>
                     <source src="/video/givemeyesterday/Homepage.webm" type="video/webm"></source>
-                        <source src="/video/givemeyesterday/Homepage.mov" type="video/mp4"></source>
+                    <source src="/video/givemeyesterday/Homepage.mov" type="video/mp4"></source>
                 </video>
             </div>
 
@@ -103,8 +108,8 @@ export default function ProjectPage() {
                 <video autoPlay loop muted className="w-full" preload="auto" playsInline>
                     <source src="/video/givemeyesterday/CursorTransition.webm" type="video/webm">
                     </source>
-                        <source src="/video/givemeyesterday/CursorTransition.mov" type="video/mp4">
-                        </source>
+                    <source src="/video/givemeyesterday/CursorTransition.mov" type="video/mp4">
+                    </source>
                 </video>
             </div>
 
@@ -167,12 +172,23 @@ export default function ProjectPage() {
 
             <div className="col-start-1 col-span-full mt-16">
                 <div className="py-4">
-                    <Image src="/img/givemeyesterday/designqualitiesandprinciples.png" alt="" className="w-full" width={964} height={1004}> </Image>
+                    <Image
+                        src="/img/givemeyesterday/designqualitiesandprinciples.png"
+                        alt=""
+                        className="w-full"
+                        width={964}
+                        height={1004}
+                    />
                 </div>
             </div>
 
             <div className="col-start-1 col-span-full mt-4">
-                <Image src="/img/givemeyesterday/initialgraphicalposters.png" alt="" className="w-full" width={964} height={583}></Image>
+                <Image
+                    src="/img/givemeyesterday/initialgraphicalposters.png"
+                    alt=""
+                    className="w-full"
+                    width={964}
+                    height={583}/>
             </div>
 
             <div className="col-start-1 col-span-4 mb-11 lg:mb-16 md:mb-16">
@@ -191,7 +207,12 @@ export default function ProjectPage() {
 
 
             <div className="col-start-1 col-span-full mt-4">
-                <Image src="/img/givemeyesterday/finalgraphicalposters.png" alt="" className="w-full"> </Image>
+                <Image
+                    src="/img/givemeyesterday/finalgraphicalposters.png"
+                    alt=""
+                    className="w-full"
+                    width={964}
+                    height={583}/>
             </div>
 
             <div className="col-start-1 col-span-4 mb-11 lg:mb-16 md:mb-16">
@@ -205,10 +226,20 @@ export default function ProjectPage() {
             </div>
 
             <div className="lg:col-start-1 md:col-start-1 col-start-1 lg:col-span-6 col-span-full mt-4">
-                <Image src="/img/givemeyesterday/asset1.png" alt="" className="w-full" width={688} height={405}></Image>
+                <Image
+                    src="/img/givemeyesterday/asset1.png"
+                    alt=""
+                    className="w-full"
+                    width={688}
+                    height={405}/>
             </div>
             <div className="lg:col-start-7 md:col-start-1 col-span-full mt-4">
-                <Image src="/img/givemeyesterday/asset2.png" alt="" className="w-full" width={688} height={405}></Image>
+                <Image
+                    src="/img/givemeyesterday/asset2.png"
+                    alt=""
+                    className="w-full"
+                    width={688}
+                    height={405}/>
             </div>
 
 
