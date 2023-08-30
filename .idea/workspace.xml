@@ -32,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/aine/Desktop/SFU/SIAT/IAT 339/redoportfolionextjs/public/img/drunkelephant",
+    "last_opened_file_path": "/Users/aine/Desktop/SFU/SIAT/IAT 339/redoportfolionextjs/public/img/givemeyesterday",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,11 +45,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/givemeyesterday" />
+      <recent name="$PROJECT_DIR$/public/video/givemeyesterday" />
       <recent name="$PROJECT_DIR$/public/img/drunkelephant" />
       <recent name="$PROJECT_DIR$/public/img/drunkelephant " />
-      <recent name="$PROJECT_DIR$/public/img/givemeyesterday" />
       <recent name="$PROJECT_DIR$/src/app/(sub)/about" />
-      <recent name="$PROJECT_DIR$/src/app/(sub)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />

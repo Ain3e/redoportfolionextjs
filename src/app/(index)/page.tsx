@@ -40,7 +40,7 @@ export default function Home() {
             </div>
 
             <div className="col-start-1 col-span-full lg:col-span-7 lg:row-start-3 mt-5 lg:mt-8">
-                <a href="#">
+                <a href="/projects/givemeyesterday">
                     <Image src="/img/givemeyesterday/Givemeyesterdaythumbnail.png"
                            alt="a laptop displaying a microsite called give me yesterday" width={2500} height={1620}/>
                     <div className="font-untitledsans text-base mt-4">

@@ -1,113 +1,242 @@
 import Image from 'next/image'
+// Assuming you have an HTML container element with the ID "content"
 
 export default function ProjectPage() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-                <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    Get started by editing&nbsp;
-                    <code className="font-mono font-bold">src/app/page.tsx</code>
-                </p>
-                <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-                    <a
-                        className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-                        href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        By{' '}
-                        <Image
-                            src="/vercel.svg"
-                            alt="Vercel Logo"
-                            className="dark:invert"
-                            width={100}
-                            height={24}
-                            priority
-                        />
-                    </a>
+        <section className="mx-6 grid grid-cols-4 gap-4 py-8 md:grid-cols-6 lg:grid-cols-12">
+
+            <nav
+                className="col-start-1 col-span-4 md:col-span-6 lg:col-span-12 row-start-1 sticky top-0 py-4 bg-white w-full">
+                <div className="font-untitledsans text-base mt-2">
+                    <p><a href="/">Alex Luowan</a></p>
+                </div>
+            </nav>
+
+
+            <div className="col-start-1 col-span-full row-start-2 mt-8">
+                <div className="py-4">
+                    <p className="font-untitledsans text-customGray ">Interaction design, Art direction</p>
+                    <p className="font-untitledsans">Give me Yesterday</p>
+                </div>
+                <Image src="/img/givemeyesterday/Givemeyesterdaythumbnail.png" alt="" width={2500} height={1620}>
+                </Image>
+            </div>
+
+
+            <div
+                className="lg:col-start-4 lg:col-span-7 col-start-4 col-span-full row-start-2 mt-8 flex justify-end lg:flex-none lg:justify-start md:flex-none md:justify-start md:col-start-3">
+                <div className="py-4">
+                    <p className="font-untitledsans text-customGray">2022</p>
                 </div>
             </div>
 
-            <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-                <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/next.svg"
-                    alt="Next.js Logo"
-                    width={180}
-                    height={37}
-                    priority
-                />
+            <div className="col-start-1 col-span-full lg:col-span-8 md:col-span-4 py-12">
+                <h2 className="font-eiko text-2xl lg:text-4xl md:text-4xl ">This junior art direction + interaction
+                    design pre-exhibition microsite aims to
+                    promote Fondazione Prada’s exhibition “Give Me Yesterday” by showcasing the works of the
+                    14 individual artists that will be displayed.</h2>
             </div>
 
-            <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-                <a
-                    href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <h2 className={`mb-3 text-2xl font-semibold`}>
-                        Docs{' '}
-                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-                    </h2>
-                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                        Find in-depth information about Next.js features and API.
+            <div
+                className="col-start-1 md:col-start-5 lg:col-start-11 md:py-12 lg:py-12 font-untitledsans col-span-3 text-base">
+                <div>
+                    <p>
+                        Team
                     </p>
-                </a>
-
-                <a
-                    href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <h2 className={`mb-3 text-2xl font-semibold`}>
-                        Learn{' '}
-                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-                    </h2>
-                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                        Learn about Next.js in an interactive course with&nbsp;quizzes!
+                    <p className="text-customGray">
+                        Sam Newaz, Jasper Precilla, Karishma Sen, and Claret Egwim-Nwagbara
                     </p>
-                </a>
-
-                <a
-                    href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <h2 className={`mb-3 text-2xl font-semibold`}>
-                        Templates{' '}
-                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-                    </h2>
-                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                        Explore the Next.js 13 playground.
+                </div>
+                <div className="mt-4">
+                    <p>
+                        Role
                     </p>
-                </a>
-
-                <a
-                    href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <h2 className={`mb-3 text-2xl font-semibold`}>
-                        Deploy{' '}
-                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-                    </h2>
-                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                        Instantly deploy your Next.js site to a shareable URL with Vercel.
+                    <p className="text-customGray">
+                        Art direction, UI designer, Researcher, Decision Maker
                     </p>
-                </a>
+                </div>
             </div>
-        </main>
+
+            <div className="col-start-1 mt-12 col-span-full md:col-span-4 lg:col-span-8">
+                <h2 className="font-eiko text-2xl md:text-4xl lg:text-4xl">Defining our content design approach</h2>
+            </div>
+
+            <div className="col-start-1 col-span-4">
+                <p className="font-untitledsans text-base ">As an online pre-exhibition site for the installation of art
+                    pieces, the microsite
+                    intends to encapsulate the physical
+                    experience of the exhibition by creating a sense of immersion for visitors. Hence enticing users to
+                    see it
+                    in person
+                    themselves</p>
+            </div>
+
+            <div className="col-start-1 mt-12 col-span-5">
+                <p>1. Use colours to categorize works</p>
+                <hr className="mb-4 border-black"></hr>
+                <p>2. Attract users through denial and reward</p>
+                <hr className="border-black"></hr>
+            </div>
+
+            <div className="col-start-1 col-span-full mt-14">
+                <video autoPlay loop muted className="w-full" preload="auto" playsInline>
+                    <source src="/video/givemeyesterday/Homepage.webm" type="video/webm"></source>
+                        <source src="/video/givemeyesterday/Homepage.mov" type="video/mp4"></source>
+                </video>
+            </div>
+
+
+            <div className="col-start-1 col-span-4 mb-16">
+                <p className="font-untitledsans py-4">
+                    Denial & reward to Encourage Content Discovery
+                </p>
+                <p className="font-untitledsans text-base">
+                    As an online pre-exhibition site for the installation of art pieces, the microsite intends to
+                    encapsulate
+                    the physical
+                    experience of the exhibition by creating a sense of immersion for visitors. Hence enticing users to
+                    see it
+                    in person themselves. </p>
+            </div>
+
+            <div className="col-start-1 col-span-full mt-9 lg:mt-14 md:mt-14">
+                <video autoPlay loop muted className="w-full" preload="auto" playsInline>
+                    <source src="/video/givemeyesterday/CursorTransition.webm" type="video/webm">
+                    </source>
+                        <source src="/video/givemeyesterday/CursorTransition.mov" type="video/mp4">
+                        </source>
+                </video>
+            </div>
+
+            <div className="col-start-1 col-span-4 mb-11 lg:mb-16 md:mb-16">
+                <p className="font-untitledsans py-4">
+                    Click to enter the artists gallery
+                </p>
+                <p className="font-untitledsans text-base">
+                    Each artists has a preview displayed at a large scale. The circle cursor appears
+                    as the user is moving across the artist landing page screen, when clicked upon, it
+                    transitions the visitor to the artists gallery. </p>
+            </div>
+
+            <div className="col-start-1 col-span-full mt-9 lg:mt-14 md:mt-14">
+                <video autoPlay loop muted className="w-full" preload="auto" playsInline>
+                    <source src="/video/givemeyesterday/finalfinalparallax.webm" type="video/webm"></source>
+                    <source src="/video/givemeyesterday/finalfinalparallax.mov" type="video/mp4"></source>
+                </video>
+            </div>
+
+            <div className="col-start-1 col-span-4 mb-11 lg:mb-16 md:mb-16">
+                <p className="font-untitledsans py-4">
+                    Parallax Image Gallery
+                </p>
+                <p className="font-untitledsans text-base">
+                    The visitor is able to view all of the artist’s images in a long horizontal parallax scroll.
+                    When reaching the end of the gallery, the visitor is met with a resistive scroll which allows them
+                    to
+                    travel to the next artist gallery. </p>
+            </div>
+
+            <div className="col-start-1 col-span-full mt-9 lg:mt-14 md:mt-14">
+                <video autoPlay loop muted className="w-full" preload="auto" playsInline>
+                    <source src="/video/givemeyesterday/finalfinalscale.webm" type="video/webm"></source>
+                    <source src="/video/givemeyesterday/finalfinalscale.mov" type="video/mp4"></source>
+                </video>
+            </div>
+
+            <div className="col-start-1 col-span-4 mb-11 lg:mb-16 md:mb-16">
+                <p className="font-untitledsans py-4">
+                    Viewing an image in full detail
+                </p>
+                <p className="font-untitledsans text-base">
+                    By hovering over an image, the visitor is able to expand its
+                    size to view the image as a whole. To better implement the concept of
+                    large-scale shifts and figure and ground, the background will shrink while
+                    the content is pushed to the
+                    side as the image expands. </p>
+            </div>
+
+            <div className="col-start-1 mt-12 col-span-full ">
+                <h2 className="font-eiko text-2xl md:text-4xl lg:text-4xl">The art direction process</h2>
+            </div>
+
+            <div className="col-start-1 col-span-4">
+                <p className="font-untitledsans text-base">To create a unique identity for the event, the team engaged
+                    in a deep graphic experimentation process. Taking inspiration from Ellen Lupton and Dan Friedman,
+                    the process began with a thorough investigation of a set of design principles and qualities.</p>
+            </div>
+
+            <div className="col-start-1 col-span-full mt-16">
+                <div className="py-4">
+                    <Image src="/img/givemeyesterday/designqualitiesandprinciples.png" alt="" className="w-full" width={964} height={1004}> </Image>
+                </div>
+            </div>
+
+            <div className="col-start-1 col-span-full mt-4">
+                <Image src="/img/givemeyesterday/initialgraphicalposters.png" alt="" className="w-full" width={964} height={583}></Image>
+            </div>
+
+            <div className="col-start-1 col-span-4 mb-11 lg:mb-16 md:mb-16">
+                <p className="font-untitledsans mb-4">
+                    Studying the principle
+                </p>
+                <p className="font-untitledsans text-base">
+                    To dig deeper, we first studied and explored our design
+                    principles by generating an exhaustive amount of sketches.
+                    Then by introducing content and combining different explorations of
+                    qualities and principles, these sketches began to form varied avenues
+                    for further iteration. Each artists has a preview displayed at a large scale.
+                    The circle cursor appears as the user is moving across the artist landing page screen,
+                    when clicked upon, it transitions the visitor to the artists gallery.</p>
+            </div>
+
+
+            <div className="col-start-1 col-span-full mt-4">
+                <Image src="/img/givemeyesterday/finalgraphicalposters.png" alt="" className="w-full"> </Image>
+            </div>
+
+            <div className="col-start-1 col-span-4 mb-11 lg:mb-16 md:mb-16">
+                <p className="font-untitledsans mb-4">
+                    Converging from 3 directions
+                </p>
+                <p className="font-untitledsans text-base">
+                    3 approaches emerged as a result of the experimentation.
+                    The approach I was responsible for was chosen for its cohesive principles and versatility across
+                    different medias. </p>
+            </div>
+
+            <div className="lg:col-start-1 md:col-start-1 col-start-1 lg:col-span-6 col-span-full mt-4">
+                <Image src="/img/givemeyesterday/asset1.png" alt="" className="w-full" width={688} height={405}></Image>
+            </div>
+            <div className="lg:col-start-7 md:col-start-1 col-span-full mt-4">
+                <Image src="/img/givemeyesterday/asset2.png" alt="" className="w-full" width={688} height={405}></Image>
+            </div>
+
+
+            <div className="col-start-1 mt-12 col-span-full">
+                <h2 className="font-eiko text-2xl lg:text-4xl md:text-4xl">Designing expressive interaction</h2>
+            </div>
+
+            <div className="col-start-1 col-span-4">
+                <p className="font-untitledsans text-base">A process of reexamining the print assets to identify the key
+                    qualities
+                    that characterized our art direction was used and formulated into three approaches to surface
+                    content
+                    through interactivity.</p>
+            </div>
+
+            <div className="col-start-1 mt-12 col-span-full">
+                <h2 className="font-eiko text-2xl lg:text-4xl md:text-4xl">Reflection</h2>
+            </div>
+
+            <div className="col-start-1 col-span-4">
+                <p className="font-untitledsans text-base">Creating designs through externalizing
+                    thoughts has been highly beneficial in both communication and idea generation.
+                    It’ll be interesting on how we are able to inspire others through the things that we make.
+
+                </p>
+            </div>
+
+
+        </section>
     )
 }
