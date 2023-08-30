@@ -13,7 +13,7 @@ export default function Home() {
             <div className="hidden col-start-8 col-span-6 row-start-1 lg:block">
                 <nav className="font-untitledsans text-base mt-4">
                     <ul>
-                        <li><a href="" className="underline">About</a></li>
+                        <li><a href="/about" className="underline">About</a></li>
                         <li><a
                             href="https://www.figma.com/file/TWVrzXVl7Eg3VE8F2BPWRG/Portfolio-webpage?type=design&node-id=240%3A46&mode=design&t=sJyuJqh07gzBG8pO-1"
                             className="underline mt-2">Resume</a></li>
