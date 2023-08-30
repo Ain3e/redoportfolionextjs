@@ -18,7 +18,7 @@ const utsans = localFont({
   src: [
     {
       path: './../fonts/untitledsans/UntitledSans-Regular.woff',
-      weight: '500',
+      weight: '400',
       style: 'normal'
     },
   ],
