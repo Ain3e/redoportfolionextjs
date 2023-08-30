@@ -1,7 +1,7 @@
 import '../globals.css'
 import type { Metadata } from 'next'
 import localFont from'next/font/local'
-import Footer from '../../../components/Footer'
+import Footer from '@/components/Footer'
 
 const eiko = localFont({
   src: [
