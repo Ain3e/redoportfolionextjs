@@ -1,7 +1,7 @@
 import '../globals.css'
 import type { Metadata } from 'next'
 import localFont from'next/font/local'
-import Footer from '../components/Footer'
+import Footer from '../../../components/Footer'
 
 const eiko = localFont({
   src: [
@@ -38,7 +38,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${eiko.variable} ${utsans.variable}`}>{children}
+      <body className={`${eiko.variable} ${utsans.variable} text-black`}>{children}
       </body>
       <Footer/>
     </html>
