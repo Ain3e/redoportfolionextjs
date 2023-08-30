@@ -51,7 +51,7 @@ export default function Home() {
             </div>
 
             <div className="col-start-1 lg:col-start-8 col-span-full lg:col-span-5 lg:row-start-3 mt-14 lg:mt-8">
-                <a href="#">
+                <a href="/projects/drunkelephant">
                     <Image src="/img/drunkelephant/drunkelephantthumbnail.png"
                            alt="a laptop displaying a intervention of a redesigned version of drunk elephant"
                            width={2500} height={1512}/>
