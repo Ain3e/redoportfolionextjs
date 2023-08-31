@@ -24,7 +24,7 @@ export default function About() {
             <div className="lg:col-start-8 lg:col-span-4 col-span-4">
                 <h2 className="font-eiko text-2xl lg:text-4xl md:text-4xl lg:mt-72 mt-10">
 
-                    Hi I'm Alex
+                    Hi I&apos;m Alex
 
                 </h2>
 
