@@ -1,10 +1,45 @@
+"use client";
 import Image from 'next/image'
-
-
+import { Fade as Hamburger } from 'hamburger-react'
+import {useState} from "react";
 export default function Home() {
+    const [menuOpen, setMenuOpen] = useState(false);
+    const handleToggle = () => {
+        setMenuOpen(prevMenuOpen => !prevMenuOpen);
+    };
+
+
     return (
         <section className="mx-6 grid grid-cols-4 gap-4 py-8 md:grid-cols-6 lg:grid-cols-12">
+            <div className="col-start-4 flex justify-end sm:hidden md:flex md:col-start-6 lg:hidden mt-2 z-50">
+                <div className="relative z-50">
+                    <Hamburger onToggle={handleToggle} />
+                    {menuOpen && (
+                        <div className="fixed inset-0 bg-white -z-10 ">
+                            <div className="grid grid-cols-4 mx-6 gap-4">
+                                <nav className="font-untitledsans text-2xl mt-2">
+                                    <ul className="mt-28 gap-4">
+                                        <li><a href="/about" className="underline mt-5">About</a></li>
+                                        <br />
+                                        <li><a href="https://www.figma.com/file/TWVrzXVl7Eg3VE8F2BPWRG/Portfolio-webpage?type=design&node-id=240%3A46&mode=design&t=sJyuJqh07gzBG8pO-1" className="underline mt-5">Resume</a></li>
+                                        <br />
+                                        <li><a href="mailto:aluowan@sfu.ca" className="underline mt-5">Email</a></li>
+                                        <br />
+                                        <li><a href="https://www.linkedin.com/in/alexluowan/" className="underline mt-5">Linkedin</a></li>
+                                        <br />
+                                        <li><a href="https://read.cv/aluowan" className="underline">Read.cv</a></li>
+                                    </ul>
+                                </nav>
 
+                                <div className="font-untitledsans text-base mt-16 col-start-1 col-span-full">
+                                    <p>Currently studying in Simon Fraser University
+                                        B.A., Interactive Arts & Technology</p>
+                                </div>
+                            </div>
+                        </div>
+                    )}
+                </div>
+            </div>
             <div className="col-start-1 col-span-2 row-start-1">
                 <div className="font-untitledsans text-base mt-4">
                     <p><a href="#">Alex Luowan</a></p>
@@ -32,7 +67,7 @@ export default function Home() {
                         B.A., Interactive Arts & Technology</p>
                 </div>
             </div>
-            
+
             <div className="col-start-1 col-span-4 mt-60 lg:col-span-8 lg:mt-custom-top leading-2xl text-customGray">
                 <h1 className="text-3xl lg:text-5xl font-eiko">Meet <span className="text-black">Alex
                 Luowan </span>
