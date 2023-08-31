@@ -13,7 +13,7 @@ export default function Home() {
         <section className="mx-6 grid grid-cols-4 gap-4 py-8 md:grid-cols-6 lg:grid-cols-12">
             <div className="col-start-4 flex justify-end sm:hidden md:flex md:col-start-6 lg:hidden mt-2 z-50">
                 <div className="relative z-50">
-                    <Hamburger onToggle={handleToggle} />
+                    <Hamburger onToggle={handleToggle} size={25} />
                     {menuOpen && (
                         <div className="fixed inset-0 bg-white -z-10 ">
                             <div className="grid grid-cols-4 mx-6 gap-4">
