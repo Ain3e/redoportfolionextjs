@@ -2,6 +2,7 @@ import '../globals.css'
 import type { Metadata } from 'next'
 import localFont from'next/font/local'
 import Footer from '@/components/Footer'
+import Script from 'next/script';
 
 const eiko = localFont({
   src: [

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 
+
 export default function Home() {
     return (
         <section className="mx-6 grid grid-cols-4 gap-4 py-8 md:grid-cols-6 lg:grid-cols-12">
@@ -31,7 +32,7 @@ export default function Home() {
                         B.A., Interactive Arts & Technology</p>
                 </div>
             </div>
-
+            
             <div className="col-start-1 col-span-4 mt-60 lg:col-span-8 lg:mt-custom-top leading-2xl text-customGray">
                 <h1 className="text-3xl lg:text-5xl font-eiko">Meet <span className="text-black">Alex
                 Luowan </span>
