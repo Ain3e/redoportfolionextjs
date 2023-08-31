@@ -28,7 +28,7 @@ const utsans = localFont({
 
 export const metadata: Metadata = {
     title: 'Alex Luowan',
-    description: ', the data-informed interaction designer creating compelling digital experiences.',
+    description: 'Alex Luowan is the data-informed interaction designer creating compelling digital experiences.',
 }
 
 export default function RootLayout({
