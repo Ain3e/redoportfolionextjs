@@ -38,7 +38,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <body className={`${eiko.variable} ${utsans.variable}`}>{children}
+        <body className={`${eiko.variable} ${utsans.variable} text-black`}>{children}
         <Footer/>
         </body>
         </html>
