@@ -7,7 +7,7 @@ import Script from 'next/script';
 const eiko = localFont({
   src: [
     {
-      path: './../fonts/eiko/PPEiko-Regular.woff',
+      path: './../fonts/eiko/PPEiko-Thin.woff',
       weight: '400',
       style: 'normal'
     },

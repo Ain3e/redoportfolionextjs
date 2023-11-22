@@ -61,15 +61,15 @@ export default function Home() {
                 </nav>
             </div>
 
-            <div className="hidden col-start-10 col-span-3 row-start-1 lg:block">
-                <div className="font-untitledsans text-base mt-4">
-                    <p>Currently studying in Simon Fraser University
-                        B.A., Interactive Arts & Technology</p>
-                </div>
-            </div>
+            {/*<div className="hidden col-start-10 col-span-3 row-start-1 lg:block">*/}
+            {/*    <div className="font-untitledsans text-base mt-4">*/}
+            {/*        <p>Currently studying in Simon Fraser University*/}
+            {/*            B.A., Interactive Arts & Technology</p>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
 
-            <div className="col-start-1 col-span-4 mt-60 lg:col-span-8 lg:mt-custom-top leading-2xl text-customGray">
-                <h1 className="text-3xl lg:text-5xl font-eiko">Meet <span className="text-black">Alex
+            <div className="col-start-1 col-span-4 mt-60 lg:col-span-8 lg:mt-40 leading-2xl text-customGray">
+                <h1 className="text-3xl lg:text-4xl font-eiko">Meet <span className="text-black">Alex
                 Luowan </span>
                     , the data-informed interaction designer creating compelling digital experiences.
                 </h1>
